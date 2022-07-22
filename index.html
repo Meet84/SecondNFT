@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NFT Web Wallet</title>
+</head>
+
+ <body >
+ <h2> NFT Web Wallet </h2>
+  <label for="fname">Wallet Address</label>
+ <input type=”text” id="wallet_address" value="Enter wallet Address here" name="Wallet Address" size="52"  >
+ <br>
+ <br>
+ 
+ <button id="nft_data">Show NFT details</button>
+ <label id="name"></label>
+ <label id="symbol"></label>
+  <br>
+  <br>
+ <button id="load_button">Show NFT</button>
+
+  <template id="nft_template">
+    
+      <h2>NFT image</h2>
+       <img src = "" alt = "" width="320" height="240">
+  
+  </template>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js"></script>
+  <script type="module" src="index.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@0xcert/ethereum-erc721": "^2.5.1"
+  }
+}
